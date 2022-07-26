@@ -8,8 +8,17 @@ img {
     width: 250px;
     height: auto;
     margin: 5px;
+    border-radius: 15px;
 }
 
 div {
     clear: left;
 }
+#footer { 
+    color: black;
+}
+
+.content{
+    color: orange;
+}
+

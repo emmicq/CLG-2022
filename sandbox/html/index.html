@@ -14,25 +14,26 @@
     <h1 style="text-align: center">ÚKOLY NA VYZKOUŠENÍ HTML TAGŮ</h1>
 
     <!-- První úkol -->
-    <div style="margin-top: 50px">
+    <div style="margin-top: 50px" id="domů">
       <h2>1. úkol: Nadpisy</h2>
-      <p style="font-weight: bold; font-size: larger">
-        Do obsahu divu níže si vyzkoušej vytvořit alespoň tři úrovně nadpisů.
-      </p>
-      <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení prvního úkolu.
+      <p style="font-weight: bold; font-size: large"></p>
+      <div style="border: 1px solid red; padding: 30px" id="o nás">
+        <h1>restaurace.cz</h1> 
+        <h2>Vyberte si z našich výborných jídel a my vám je dovezeme až domů.</h2>
+        <h3>rychle a jednoduše</h3>
       </div>
     </div>
 
     <!-- Druhý úkol -->
     <div style="margin-top: 50px">
       <h2>2. úkol: Texty</h2>
-      <p style="font-weight: bold; font-size: larger">
+      <p style="font-weight: bold; font-size: larger" id="menu">
         Do obsahu divu níže si vyzkoušej vytvořit dva odstavce textu. Použij
         také například tučný textu, text na novém řádku nebo span.
       </p>
       <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení druhého úkolu.
+        <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum praesentium voluptatem dolorem, quisquam quam iusto maiores. Ipsum explicabo deleniti deserunt doloremque nihil modi expedita officia laudantium ex. Magnam, aspernatur temporibus.
+          <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo, ut?</span>
       </div>
     </div>
 
@@ -44,7 +45,18 @@
         seznam.
       </p>
       <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení třetího úkolu.
+        <ul>
+          <h2>hlavní jídla</h2>
+          <li>kuře s rýží</li>
+          <li>svíčková s houskovým knedlíkem</li>
+          <li>tortilla</li>
+          <h2>dezerty</h2>
+          <li>palačinky</li>
+          <li>jahodový dort</li>
+          <li>čokoládový muffin</li>
+        </ul>
+        
+
       </div>
     </div>
 
@@ -55,7 +67,16 @@
         Do obsahu divu níže vlož navigaci s alespoň třemi položkami menu.
       </p>
       <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení čtvrtého úkolu.
+        
+        
+        
+        
+          <nav>
+            <a href="#domů">domů</a>
+            <a href="#menu">jídelní lístek</a>
+            <a href="#o nás">o nás</a>
+            <a href="#neco">obrázky</a>
+          </nav>
       </div>
     </div>
 
@@ -67,14 +88,15 @@
         otevření obrázku ze složky. Použij jeden z obrázků ve složce obrazky.
       </p>
       <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení pátého úkolu.
+        <a href="http://vodafone.cz">reklama</a>
+        <a href="obrazky/dog.jpg">obrázek</a>
       </div>
     </div>
 
     <!-- Šestý úkol -->
-    <div style="margin-top: 50px">
+    <div style="margin-top: 50px"></div>
       <h2>6. úkol: Odkazy</h2>
-      <p style="font-weight: bold; font-size: larger">
+      <p style="font-weight: bold; font-size: larger" id="neco">
         Do obsahu divu níže přidej 3 obrázky ze složky "obrazky". Dej jim výšku
         a šířku 200 pixelů.
       </p>
@@ -85,8 +107,23 @@
           display: flex;
           justify-content: space-between;
         "
-      >
-        Tento text smaž a napiš sem řešení šestého úkolu.
+      ><img
+       src="obrazky/dog.jpg" 
+       alt="dog in the morning"
+       width="200"
+       height="200">
+
+       <img src="obrazky/lama.jpg"
+        alt="lama"
+       width="200"
+       height="200">
+
+       <img src="obrazky/cat.jpg" alt="cat"
+       width="200"
+       height="200">
+       
+
+        
       </div>
     </div>
 
@@ -98,7 +135,19 @@
         řádky.
       </p>
       <div style="border: 1px solid red; padding: 30px">
-        Tento text smaž a napiš sem řešení sedmého úkolu.
+        <table><tr>
+          <th>Týden</th>
+          <th>jídlo</th>
+        </tr>
+        <tr></tr>
+        <td>1.</td>
+        <td>risoto</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>těstoviny</td>
+      </tr>
+      </table>
       </div>
     </div>
   </body>
