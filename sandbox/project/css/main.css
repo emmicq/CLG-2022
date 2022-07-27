@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
 
 body {
     margin: 0;
@@ -47,9 +48,13 @@ section {
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    padding-top: 70px;
+    padding-top: 75px;
     z-index: 900;
-    font-family: Calibri, sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.featured {
+    padding-right: 50%;
 }
 
 #learnmore:visited {
@@ -89,7 +94,7 @@ section {
 .height {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: calc(100vh-70px);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
@@ -112,7 +117,7 @@ body {
 footer {
     display: inline-block;
     height: 70px;
-    background-color: #999;
+    background-color: rgb(63, 63, 63);
     margin-bottom: -10px;
     width: 80%;
     margin-left: 10%;
