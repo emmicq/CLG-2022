@@ -101,11 +101,13 @@ body {
 }
 
 footer {
-    width: 100%;
     display: inline-block;
-    margin: 2em 0;
     height: 70px;
     background-color: #999;
+    margin-bottom: -10px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 footer .copyright {
