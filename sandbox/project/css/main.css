@@ -23,6 +23,11 @@ a:visited {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 a {
+    text-decoration-line: none;
+
+}
+
 .border-top {
     border-bottom: solid 2px #000;
     width: 100%;
@@ -36,7 +41,6 @@ header.page-header>h1 {
 }
 
 section {
-    font: 1rem 'Fira Sans', sans-serif;
     padding-top: 70px;
     padding-left: 3%;
     padding-right: 3%;
