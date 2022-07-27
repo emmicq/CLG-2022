@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 
 html {
@@ -42,7 +42,7 @@ header.page-header>h1 {
 }
 
 section {
-    background-color: rgb(254, 207, 0);
+    background-color: #FFFDD0;
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,6 +63,16 @@ section {
 
 .featured-body-text {
     font-size: 11pt;
+}
+
+.featured h3 {
+    font-weight: bolder;
+}
+
+p a {
+    text-decoration-line: none;
+    font-weight: bolder;
+    font-variant: small-caps;
 }
 
 h2 {
