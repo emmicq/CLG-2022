@@ -28,7 +28,7 @@
                 <a href="#">Link 2</a>
                 <a href="#">Link 3</a>
                 <a href="#">Link 4</a>
-                <a href="formular.html">Subscribe to our newsletter</a>
+                <a href="">Subscribe to our newsletter</a>
             </div>
         </div>
     </div>
@@ -40,6 +40,37 @@
         <a href="grafcard.html">graphicscards are not aviable...</a>
         <a href="grafcard.html">learn more</a>
         <img src="obrazky/gk2.jfif" alt="" width="auto" height="200">
+
+
+        <!-- Weather Forecast - Prague and other cities in the world-->
+        <script>
+            (function (d, s, id) {
+                if (d.getElementById(id)) {
+                    if (window.__TOMORROW__) {
+                        window.__TOMORROW__.renderWidget();
+                    }
+                    return;
+                }
+                const fjs = d.getElementsByTagName(s)[0];
+                const js = d.createElement(s);
+                js.id = id;
+                js.src = "https://www.tomorrow.io/v1/widget/sdk/sdk.bundle.min.js";
+
+                fjs.parentNode.insertBefore(js, fjs);
+            })(document, 'script', 'tomorrow-sdk');
+        </script>
+
+        <div class="tomorrow" data-location-id="022970,044856,122795,099972,072102,079773" data-language="EN"
+            data-unit-system="METRIC" data-skin="light" data-widget-type="current6"
+            style="padding-bottom:22px;position:relative;">
+            <a href="https://www.tomorrow.io/weather/" rel="nofollow noopener noreferrer" target="_blank"
+                style="position: absolute; bottom: 0; transform: translateX(-50%); left: 50%;">
+                <img alt="Powered by Tomorrow.io"
+                    src="https://weather-website-client.tomorrow.io/img/powered-by-tomorrow.svg" width="140"
+                    height="15" />
+            </a>
+        </div>
+        <!-- Weather Forecast - Prague and other cities in the world-->
 
         <h2>News</h2>
         <h1>Five-year-old Matthias found a real treasure with the detector. Father is threatened with trouble with the
@@ -82,15 +113,21 @@
             malesuada fames ac ante ipsum primis in faucibus. In quis suscipit velit. Donec consequat ac orci in
             sodales. Suspendisse et arcu nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed tempor
             interdum tortor.</h1>
-        <div><a href=></a></div>
+        <div><a href></a></div>
     </section>
 
 
-    <div class="footer">
-        <div class="footer-content">
-            aaaa
+    <footer>
+        <div class="copyright">
+            <p>&copy 2022 - Title.com</p>
         </div>
-    </div>
+        <div class="social">
+            <a href="#" class="support">Newsletter</a>
+            <a target="_blank" href="https://www.facebook.com/nytimes/" class="face">f</a>
+            <a target="_blank" href="https://twitter.com/nytimes" class="tweet">t</a>
+            <a target="_blank" href="https://www.linkedin.com/company/the-new-york-times" class="linked">in</a>
+        </div>
+    </footer>
 </body>
 
 </html>
