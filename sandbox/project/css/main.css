@@ -9,9 +9,6 @@ html {
     height: 100%;
 }
 
-a:visited {
-    color: rgb(255, 255, 255) !important;
-}
 
 .page-header {
     display: flex;
@@ -53,6 +50,10 @@ section {
     padding-top: 70px;
     z-index: 900;
     font-family: Calibri, sans-serif;
+}
+
+#learnmore:visited {
+    color: black
 }
 
 .title {
@@ -160,7 +161,7 @@ footer .social a {
     float: left;
     line-height: 70px;
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-weight: bold;
     -moz-transition: all, 0.3s;
@@ -187,7 +188,9 @@ footer .social a:hover {
     background-color: #3D5B94;
     font-size: 1.2em;
     width: 20%;
+    color: white
 }
+
 
 .tweet {
     background-color: #3DACDD;
