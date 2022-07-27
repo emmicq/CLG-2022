@@ -10,7 +10,7 @@ html {
 }
 
 a:visited {
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 .page-header {
@@ -160,7 +160,7 @@ footer .social a {
     float: left;
     line-height: 70px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 0, 0);
     text-align: center;
     font-weight: bold;
     -moz-transition: all, 0.3s;
