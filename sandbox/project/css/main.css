@@ -52,13 +52,14 @@ section {
 .title {
     margin-left: 11.5%;
     margin-right: 10px;
+    min-width: fit-content;
 }
 
 .subheading {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding-top: 14px;
+    padding-top: 12px;
     font-weight: bold;
 }
 
