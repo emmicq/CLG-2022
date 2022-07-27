@@ -65,6 +65,16 @@ section {
     font-size: 11pt;
 }
 
+.featured h3 {
+    font-weight: bolder;
+}
+
+p a {
+    text-decoration-line: none;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+
 h2 {
     font-size: 20pt;
 }
