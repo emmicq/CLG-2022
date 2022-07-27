@@ -43,17 +43,30 @@ header.page-header>h1 {
 
 section {
     background-color: rgb(254, 207, 0);
-    min-height: 100%;
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 75px;
     z-index: 900;
     font-family: 'Roboto Slab', serif;
+    min-width: 50vh;
+}
+
+.thx-height {
+    height: calc(100vh - 70px);
 }
 
 .featured {
-    padding-right: 50%;
+    width: 50%;
+    min-width: 300px;
+}
+
+.featured-body-text {
+    font-size: 11pt;
+}
+
+h2 {
+    font-size: 20pt;
 }
 
 #learnmore:visited {
@@ -91,9 +104,7 @@ section {
 }
 
 .height {
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh-70px);
+    height: calc(100vh - 70px);
 }
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
