@@ -60,10 +60,11 @@ section {
 .featured {
     width: 50%;
     min-width: 300px;
+    font-variant: small-caps;
 }
 
 .featured-body-text {
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .featured h3 {
@@ -77,7 +78,7 @@ section {
 }
 
 .featured-section-featured-body-text {
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 .featured-section-featured h3 {
