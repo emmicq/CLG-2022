@@ -65,30 +65,27 @@ section {
 .featured {
     width: 50%;
     min-width: 300px;
-    font-variant: small-caps;
 }
 
 .featured-body-text {
-    font-size: 10pt;
+    font-size: 11pt;
+    font-variant: normal;
 }
 
 .featured h3 {
     font-weight: bolder;
+    font-variant: small-caps;
 }
 
 .featured-section-featured {
     text-decoration-line: none;
-    font-variant: small-caps;
     margin-bottom: 20px;
-}
-
-.featured-section-featured-body-text {
-    font-size: 10pt;
 }
 
 .featured-section-featured h3 {
     font-weight: bolder;
     font-size: 20px;
+    font-variant: small-caps;
 }
 
 h2 {
