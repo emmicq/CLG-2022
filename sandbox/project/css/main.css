@@ -53,6 +53,11 @@ section {
     min-width: 50vh;
 }
 
+.nav-grid-main-page a {
+    text-decoration-line: none;
+    text-decoration-color: #000;
+}
+
 .thx-height {
     height: calc(100vh - 70px);
 }
