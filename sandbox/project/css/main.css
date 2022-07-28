@@ -263,6 +263,11 @@ footer .social a:hover {
     margin-bottom: 30px;
 }
 
+.tech-hub-table-margin {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
 
 /*FOOTER STATIC*/
 .footer-s {
