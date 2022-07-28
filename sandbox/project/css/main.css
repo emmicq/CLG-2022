@@ -254,6 +254,7 @@ footer .social a:hover {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
+    margin-left: 0;
 }
 
 /*
