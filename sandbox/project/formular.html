@@ -27,10 +27,15 @@
         </span>
       </button>
       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
+        <a href="section-hub.html">News</a>
+        <a href="section-hub-tech.html">Technology</a>
+        <a href="section-hub.html">Sport</a>
+        <a href="section-hub.html">Science</a>
+        <a href="section-hub.html">Fashion</a>
+        <a href="section-hub.html">Art</a>
+        <a href="section-hub.html">Lifestyle</a>
+        <a href="section-hub.html">Politics</a>
+        <a href="section-hub.html">Gastronomy</a>
         <a href="formular.html">Subscribe to our newsletter</a>
       </div>
     </div>
@@ -53,37 +58,62 @@
     <p>Choose your interests</p>
 
     <form>
-      <input type="checkbox" id="html" name="intrests" value="HTML">
-      <label for="html">News</label><br>
-      <input type="checkbox" id="css" name="intrests" value="CSS">
-      <label for="css">Technology</label><br>
-      <input type="checkbox" id="javascript" name="intrests" value="JavaScript">
-      <label for="javascript">Sport</label><br>
-      <input type="checkbox" id="javascript" name="intrests" value="JavaScript">
-      <label for="javascript">Fashion</label><br>
-      <input type="checkbox" id="javascript" name="intrests" value="JavaScript">
-      <label for="javascript">Art</label><br>
-      <input type="checkbox" id="javascript" name="intrests" value="JavaScript">
-      <label for="javascript">Science</label><br>
-
+      <table>
+        <tr>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="html" name="intrests" value="HTML">
+              <label for="html">News</label>
+            </div>
+          </td>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="css" name="intrests" value="CSS">
+              <label for="css">Technology</label>
+            </div>
+          </td>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="javascript" name="intrests" value="JavaScript">
+              <label for="javascript">Sport</label>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="javascript" name="intrests" value="JavaScript">
+              <label for="javascript">Fashion</label>
+            </div>
+          </td>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="javascript" name="intrests" value="JavaScript">
+              <label for="javascript">Art</label>
+            </div>
+          </td>
+          <td>
+            <div class="table-spacing"><input type="checkbox" id="javascript" name="intrests" value="JavaScript">
+              <label for="javascript">Science</label>
+            </div>
+          </td>
+        </tr>
+      </table>
 
     </form>
-
-
+    <br>
     <form>
-      <button id="button" type="submit" formaction="thankyou.html">Submit</button>
-    </form>
-    </button>
+      <label for="often"></label>Select how often do you want to receive our newsletter.</label>
+      <select name="often" id="often">
+        <option value="daily">Daily</option>
+        <option value="weekly">Weekly</option>
+        <option value="Monthly">Monthly</option>
+      </select>
+      <br><br>
+
+      <form>
+        <button id="button" type="submit" formaction="thankyou.html">Submit</button>
+      </form>
+      </button>
   </section>
-  <!--Pop-up "thank you"-->
 
 
-
-
-  <!--Pop - up "thank you"-->
-
-
-  <footer>
+  <footer class="footer-s">
     <div class="copyright">
       <p>&copy 2022 - Title.com</p>
     </div>
