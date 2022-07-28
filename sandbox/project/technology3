@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title.com - Your Daily News on the Go</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/dropdown-menu.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <div class="page-header">
+        <div class="border-top"></div>
+        <h1 class="title"><a style="color:black" href="main-page.html">title.com ||</a></h1>
+        <div class="subheading">
+            <div>your daily news on the go</div>
+            <div class="spacer"></div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn"><span class="material-symbols-outlined">
+                    menu
+                </span>
+            </button>
+            <div class="dropdown-content">
+                <a href="section-hub.html">News</a>
+                <a href="section-hub-tech.html">Technology</a>
+                <a href="section-hub.html">Sport</a>
+                <a href="section-hub.html">Science</a>
+                <a href="section-hub.html">Fashion</a>
+                <a href="section-hub.html">Art</a>
+                <a href="section-hub.html">Lifestyle</a>
+                <a href="section-hub.html">Politics</a>
+                <a href="formular.html">Subscribe to our newsletter</a>
+            </div>
+        </div>
+    </div>
+
+    <section>
+        <h2>As Laptops Evolve, Education Transforms</h2>
+        <hr>
+        <hr>
+        <div class="article">
+            At Lilla G. Frederick Pilot Middle School (LGF), students don’t just diagram a sentence. They film a
+            sentence.
+
+            English students at LGF were instructed to think up a sentence with a prepositional phrase—“Jimmy jumped on
+            a table”—and then create a short video of the sentence, which their classmates viewed on their laptops. “You
+            never saw so much laughter and giggles,” says principal Deb Socia. “And I guarantee none of those students
+            will ever forget what a preposition is.”
+
+            LGF has become the showcase for the growing belief that laptop computers, properly integrated into
+            classrooms, can have a profound effect on how students learn and act. The inner-city middle school is
+            located in a gang-ridden area in the Dorchester neighborhood of Boston. Thirty percent of the 670 students
+            have special needs, and nine in 10 are considered low income.
+
+            In 2007, a program was initiated to give each student a laptop and integrate the technology into instruction
+            in a meaningful way. At any given time, about one-third of the classrooms are engaged in some
+            technology-related activities. Students blog immediately when they come into class to settle in. They’ve
+            written and recorded their own protest songs on their laptops while studying the First Amendment.
+            <br><img src="obrazky/surface.jpg" alt="" class="image">
+            <br>
+            <h3>Stronger Connections</h3>
+            <br>
+            While laptops may have started as a business tool,
+            their role in education is only now being fully
+            explored—both in Third World countries with limited access to formal education and Westernized education
+            systems. They are being used to support overburdened school districts with limited teaching resources;
+            enhance critical thinking and academic success; and strengthen student and parental participation in the
+            learning process.
+
+            A recent study in the Journal of Technology, Learning, and Assessment found students in one-to-one computer
+            settings like LGF outperformed peers in traditional classrooms. In a single year, 20 percent of LGF students
+            increased their reading skills by two grade levels. The number of students referred to LGF’s principal or
+            other intervention specialists for disciplinary reasons has dropped from 500 to 100 in two years. Prior to a
+            flu outbreak, Socia says attendance levels had increased.
+
+            LGF is championing the notion that laptops have their greatest impact in the classroom by engaging students,
+            teachers and parents in creative, new ways. “People assume that if students are using individual laptops
+            they can’t be collaborating,” Socia says. “But if they are blogging, we use a LCD projector to show the
+            blogs on the board so the students can comment on each other’s work. The students can e-mail their writing
+            to a classmate for peer-to-peer editing in ten seconds.”
+
+            This dovetails with studies that indicate laptops shift instruction from lectures to individual and group
+            projects. At LGF, teachers use the technology to differentiate their instruction based on the special needs
+            or learning levels of a student. A crucial aspect for LGF is the inclusion of parents, many of whom have
+            never touched a computer before. Hundreds of families have joined the Technology Goes Home program, where
+            they are provided with training and a netbook to use at home.
+
+            “The parents take the computer home and the child becomes the teacher,” Socia says. “They sit together and
+            it improves the relationship. It’s a win-win situation.” Parents now hop online and check their children’s
+            homework assignments and grades.
+            <br>
+            <br>
+            <h3>Taking College by Storm</h3>
+            <br>
+            In a study recently published in Computers in Education Journal, 78 percent of students agreed the laptops
+            made them more engaged and about half said they were more attentive as a result of the technology. About
+            seven in 10 students said the laptops had a positive effect on their learning.
+
+            Case in point: Perry Samson, Ph.D., a meteorologist and professor at the University of Michigan, teaches a
+            lecture class in Extreme Weather. He explains how tornados form and why climate change may result in more
+            intense hurricanes. Now he’s shaking up education with a robust interactive response system called
+            LectureTools, which makes use of the laptops his students carry into his lecture hall.
+            <br>
+            <br>
+            During class, students can view Professor Samson’s PowerPoint slides on their laptops and take notes
+            directly on the slides. Using a chat window, the students can anonymously ask the teacher’s aide questions
+            during the lecture. Professor Samson can see the questions, too, providing him with valuable insight into
+            the student’s comprehension of his lecture without disrupting the flow of the class. Students can also rate
+            their understanding of the slides, giving him more immediate feedback.
+
+            “It’s sobering,” Professor Samson says. “I always thought I was God’s gift to lecturing; now I realize how
+            confused the students were before they could ask questions.”
+
+            After laughing, he continues: “The students can ask what they think is a dumb question without fear. In the
+            30 years I’ve taught, there are usually only five or six students in a 300-student lecture class who had the
+            chutzpah to raise their hand and ask a question. Now, with this system, two-thirds of the students are
+            asking questions.”
+
+            During class, students can use their laptops to answer multiple-choice questions and image-based questions,
+            such as locating weather patterns on a map. “By how they answer questions, I can see which students are in
+            trouble before the first exam and which require more attention,” Professor Samson says.
+
+            Skeptics have been concerned that students will use laptops for too much play and not enough work. But
+            Professor Samson says he’s proven otherwise. “The key is to engage students through their laptops, so they
+            don’t drift off to social networking sites. And we’ve shown you can do that.”
+            <br><br>
+
+        </div>
+    </section>
+
+
+
+
+
+    </section>
+
+    <footer>
+        <div class="copyright">
+            <p>&copy 2022 - title.com</p>
+        </div>
+        <div class="social">
+            <a href="formular.html" class="support">Newsletter</a>
+            <a target="_blank" href="https://www.facebook.com/nytimes/" class="face">f</a>
+            <a target="_blank" href="https://twitter.com/nytimes" class="tweet">t</a>
+            <a target="_blank" href="https://www.linkedin.com/company/the-new-york-times" class="linked">in</a>
+        </div>
+    </footer>
+</body>
+
+</html>
