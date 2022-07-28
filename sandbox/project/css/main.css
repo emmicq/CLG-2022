@@ -70,10 +70,19 @@ section {
     font-weight: bolder;
 }
 
-p a {
+.featured-section-featured {
     text-decoration-line: none;
-    font-weight: bolder;
     font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+.featured-section-featured-body-text {
+    font-size: 11pt;
+}
+
+.featured-section-featured h3 {
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 h2 {
@@ -254,6 +263,7 @@ footer .social a:hover {
     position: fixed;
     bottom: 0;
     margin-bottom: 0;
+    margin-left: 0;
 }
 
 /*
